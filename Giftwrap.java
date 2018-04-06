@@ -214,9 +214,7 @@ public class Giftwrap {
             else if(obj instanceof Double){
                 bundle.putDouble(key, (double) obj);
             }
-            else if (obj instanceof String) {
-                bundle.putString(key, (String) obj);
-            }
+            // This will catch Strings also.
             else if (obj instanceof CharSequence) {
                 bundle.putCharSequence(key, (CharSequence) obj);
             }
