@@ -203,7 +203,7 @@ public class Giftwrap {
                 bundle.putBinder(key, (IBinder) obj);
             }
             else if(obj instanceof Boolean){
-                bundle.putBoolean(key, (Boolean) obj);
+                bundle.putBoolean(key, (boolean) obj);
             }
             else if (obj instanceof Byte) {
                 bundle.putByte(key, (byte) obj);
