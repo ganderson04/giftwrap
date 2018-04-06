@@ -20,4 +20,4 @@ Bundle bundle = new Giftwrap()
       .wrap();
 ```
 
-Though the Bundle class has methods for adding ArrayLists of various types, all ArrayLists added via Giftwrap are added with `Bundle.putSerializable` and can be retrieved in their original form via the Bundle's various `get` methods for ArrayLists, such as `Bundle.getIntegerArrayList`.
+Though the Bundle class has methods for adding ArrayLists of various types, all ArrayLists added via Giftwrap are added with `Bundle.putSerializable` and can be retrieved in their original form via the Bundle's various `get` methods for ArrayLists, such as `Bundle.getIntegerArrayList`. Similarly, Strings are added using ```Bundle.putCharSequence``` but can still be retrived using ```Bundle.getString```.
